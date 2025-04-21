@@ -1,6 +1,6 @@
-# Required Dependencies and Applications
+# Required Dependencies
 
-## Required Applications:
+## Required Application and Framework:
 - **Visual Studio** (with .NET Desktop development workload)  
   Used for building the project.
 
