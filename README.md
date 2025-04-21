@@ -21,7 +21,7 @@ A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
 ### 2. Install this Mod
 
-- Download the dll file from [Here](https://github.com/Bestcreeper-code/ItemsMakeFastDC/releases/tag/Releases) or compile the [source](https://github.com/Bestcreeper-code/ItemsMakeFastDC/releases/tag/Sources) version yourself (Visual Studio).
+- Download the dll file from [Here](https://github.com/Bestcreeper-code/ItemsMakeFastDC/releases/tag/Releases) or compile the [source](https://github.com/Bestcreeper-code/ItemsMakeFastDC/releases/tag/src) version yourself (Visual Studio).
 - Place the `.dll` file into the `BepInEx/plugins/` folder.
 
 ### 3. Launch the Game
