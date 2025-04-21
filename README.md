@@ -1,4 +1,4 @@
-# 🎮 My BepInEx Mod
+# 🎮 ItemsMakeFast
 
 A custom mod for **Dungeon Clawler** built using the BepInEx framework.
 
