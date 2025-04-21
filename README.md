@@ -1,44 +1,46 @@
-# 🎮 My BepInEx Mod
+# Required Dependencies and Applications
 
-A custom mod for **Dungeon Clawler** built using the BepInEx framework.
+## Required Applications:
+- **Visual Studio** (with .NET Desktop development workload)  
+  Used for building the project.
 
----
-
-## 📦 Requirements
-
-- [BepInEx (latest version)](https://github.com/BepInEx/BepInEx/releases)
-- Compatible with any game version(until settings or speed system gets revamped)
+- **BepInEx**  
+  Framework for modding the game. [Download BepInEx here](https://github.com/BepInEx/BepInEx/releases).
 
 ---
 
-## 🧰 Installation
+## Required Dependencies
 
-### 1. Install BepInEx
+### BepInEx DLLs:
+- **0Harmony.dll**  
+  **Location**: `BepInEx/core/0Harmony.dll`
 
-- Download the latest BepInEx release [here](https://github.com/BepInEx/BepInEx/releases).
-- Extract the contents into your game folder (where the main executable is).
-- Run the game once to generate required folders.
+- **BepInEx.dll**  
+  **Location**: `BepInEx/core/BepInEx.dll`
 
-### 2. Install this Mod
+- **BepInEx.Harmony.dll**  
+  **Location**: `BepInEx/core/BepInEx.Harmony.dll`
 
-- Download the dll file from [Here](https://github.com/Bestcreeper-code/ItemsMakeFastDC/releases/tag/Releases) or compile the [source](https://github.com/Bestcreeper-code/ItemsMakeFastDC/releases/tag/Sources) version yourself (Visual Studio).
-- Place the `.dll` file into the `BepInEx/plugins/` folder.
-
-### 3. Launch the Game
-
-- BepInEx will automatically load the mod on startup.
+- **BepInEx.Preloader.dll**  
+  **Location**: `BepInEx/core/BepInEx.Preloader.dll`
 
 ---
 
-## 🧪 Features
+### Game-Specific DLLs (From Dungeon Clawler's Data Directory):
+- **Assembly-CSharp.dll**  
+  **Location**: `DungeonClawler_Data/Managed/Assembly-CSharp.dll`
 
-- Every item in your deck slightly increases game speed (configurable in-game).
-- Base game speed is adjustable from **0 to 3.5** (configurable in-game).
-- You can bind a key to display your current speed (only configurable via `config.txt` for now).
+- **Assembly-CSharp-firstpass.dll**  
+  **Location**: `DungeonClawler_Data/Managed/Assembly-CSharp-firstpass.dll`
 
----
+- **UnityEngine.dll**  
+  **Location**: `DungeonClawler_Data/Managed/UnityEngine.dll`
 
-## 🔧 Configuration
+- **UnityEngine.CoreModule.dll**  
+  **Location**: `DungeonClawler_Data/Managed/UnityEngine.CoreModule.dll`
 
-A config file will be created in the mod folder(C:\Program Files (x86)\Steam\steamapps\common\Dungeon Clawler\Windows\BepInEx\pluginsItemsMakeFast\config.txt by default)
-As said above, you can modify your settings in this file or use the ingame settings(exept the speed showing key that can for now only bechanged in the config file)
+- **UnityEngine.InputLegacyModule.dll**  
+  **Location**: `DungeonClawler_Data/Managed/UnityEngine.InputLegacyModule.dll`
+
+- **UnityEngine.UI.dll**  
+  **Location**: `DungeonClawler_Data/Managed/UnityEngine.UI.dll`
